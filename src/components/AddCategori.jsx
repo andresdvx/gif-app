@@ -18,6 +18,7 @@ const AddCategori = ({ setCategory, category }) => {
         type="text"
         value={value}
         placeholder="Search Gif"
+        autoFocus="true"
         onChange={(evt) => {
           setValue(evt.target.value);
         }}
